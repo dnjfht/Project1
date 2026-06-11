@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "calculateAge.h"
 #include "standardWeight.h"
+#include "print.h"
+#include "if.h"
 
 void multiplicationTable(void);
 void calculateTriangle(void);
@@ -11,7 +13,11 @@ int main()
 	// multiplicationTable();
 	// calculateTriangle();
 	// calculateAge();
-	standardWeight();
+	// standardWeight();
+	// print();
+	// defineAdult();
+	// defineEven();
+	defineGrade();
 
 	return 0;
 }

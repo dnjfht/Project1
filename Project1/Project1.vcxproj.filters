@@ -24,12 +24,24 @@
     <ClCompile Include="standardWeight.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="print.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="if.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculateAge.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="standardWeight.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="if.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
