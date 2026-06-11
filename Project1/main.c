@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "calculateAge.h"
+#include "standardWeight.h"
 
 void multiplicationTable(void);
 void calculateTriangle(void);
@@ -6,8 +8,10 @@ void calculateTriangle(void);
 // main 함수에는 무조건 int 자료형을 사용
 int main()
 {
-	multiplicationTable();
-	calculateTriangle();
+	// multiplicationTable();
+	// calculateTriangle();
+	// calculateAge();
+	standardWeight();
 
 	return 0;
 }
@@ -39,3 +43,4 @@ void calculateTriangle(void)
 	result = width * height / 2.0;
 	printf_s("Result: %.1lf", result);
 }
+

@@ -139,7 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hello.c" />
+    <ClCompile Include="calculateAge.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="standardWeight.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculateAge.h" />
+    <ClInclude Include="standardWeight.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
