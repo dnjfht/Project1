@@ -140,15 +140,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="calculateAge.c" />
+    <ClCompile Include="defineAdult_2.c" />
     <ClCompile Include="if.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="print.c" />
+    <ClCompile Include="quiz.c" />
     <ClCompile Include="standardWeight.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculateAge.h" />
+    <ClInclude Include="defineAdult_2.h" />
     <ClInclude Include="if.h" />
     <ClInclude Include="print.h" />
+    <ClInclude Include="quiz.h" />
     <ClInclude Include="standardWeight.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

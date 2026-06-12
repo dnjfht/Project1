@@ -30,6 +30,12 @@
     <ClCompile Include="if.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="quiz.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="defineAdult_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculateAge.h">
@@ -42,6 +48,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="if.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="defineAdult_2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

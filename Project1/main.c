@@ -3,6 +3,8 @@
 #include "standardWeight.h"
 #include "print.h"
 #include "if.h"
+#include "quiz.h"
+#include "defineAdult_2.h"
 
 void multiplicationTable(void);
 void calculateTriangle(void);
@@ -17,7 +19,8 @@ int main()
 	// print();
 	// defineAdult();
 	// defineEven();
-	defineGrade();
+	// defineGrade();
+	defineAdult_2();
 
 	return 0;
 }
