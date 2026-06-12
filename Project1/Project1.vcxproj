@@ -146,6 +146,7 @@
     <ClCompile Include="print.c" />
     <ClCompile Include="quiz.c" />
     <ClCompile Include="standardWeight.c" />
+    <ClCompile Include="switch.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculateAge.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="print.h" />
     <ClInclude Include="quiz.h" />
     <ClInclude Include="standardWeight.h" />
+    <ClInclude Include="switch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

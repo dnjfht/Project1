@@ -2,3 +2,4 @@
 void defineAdult(void);
 void defineEven(void);
 void defineGrade(void);
+void defineEquipmentInspection(void);

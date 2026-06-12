@@ -37,3 +37,19 @@ void defineGrade(void)
 
 	printf_s("%d점은 %c등급입니다.", score, grade);
 }
+
+void defineEquipmentInspection(void)
+{
+	int temperature = 60;
+	int pressure = 40;
+
+	if (temperature > 80) {
+		if (pressure > 50) {
+			printf_s("설비 점검 필요\n");
+		}
+	} else printf_s("설비 점검 불필요\n");
+
+	//if (temperature > 80 && pressure > 50) {
+	//	printf_s("설비 점검 필요\n");
+	//}
+}

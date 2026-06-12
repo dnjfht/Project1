@@ -5,6 +5,7 @@
 #include "if.h"
 #include "quiz.h"
 #include "defineAdult_2.h"
+#include "switch.h"
 
 void multiplicationTable(void);
 void calculateTriangle(void);
@@ -20,7 +21,11 @@ int main()
 	// defineAdult();
 	// defineEven();
 	// defineGrade();
-	defineAdult_2();
+	// defineAdult_2();
+	// defineEquipmentInspection();
+	// switchEx1();
+	// switchEx1ChangeIf();
+	ifEx2();
 
 	return 0;
 }
