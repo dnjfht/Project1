@@ -145,6 +145,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="print.c" />
     <ClCompile Include="quiz.c" />
+    <ClCompile Include="repeat.c" />
     <ClCompile Include="standardWeight.c" />
     <ClCompile Include="switch.c" />
   </ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="if.h" />
     <ClInclude Include="print.h" />
     <ClInclude Include="quiz.h" />
+    <ClInclude Include="repeat.h" />
     <ClInclude Include="standardWeight.h" />
     <ClInclude Include="switch.h" />
   </ItemGroup>

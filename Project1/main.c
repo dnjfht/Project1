@@ -6,6 +6,7 @@
 #include "quiz.h"
 #include "defineAdult_2.h"
 #include "switch.h"
+#include "repeat.h"
 
 void multiplicationTable(void);
 void calculateTriangle(void);
@@ -13,19 +14,11 @@ void calculateTriangle(void);
 // main 함수에는 무조건 int 자료형을 사용
 int main()
 {
-	// multiplicationTable();
-	// calculateTriangle();
-	// calculateAge();
-	// standardWeight();
-	// print();
-	// defineAdult();
-	// defineEven();
-	// defineGrade();
-	// defineAdult_2();
-	// defineEquipmentInspection();
-	// switchEx1();
-	// switchEx1ChangeIf();
-	ifEx2();
+	// repeatEx1();
+	// repeatEx2();
+	// repeatEx3();
+	// repeatWhileEx2();
+	repeatEx4();
 
 	return 0;
 }
